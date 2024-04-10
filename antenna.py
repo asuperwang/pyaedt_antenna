@@ -136,13 +136,13 @@ solution_data = new_report.get_solution_data()
 solution_data.plot()
 
 hfss.post.plot_field(
-    "Realized2D",  # 报告名称
-    expr="db(RealizedGainTotal)",  # 表达式
-    sweep_variable="Phi",  # 扫描变量
-    freq="30GHz",  # 频率
-    context="3D",  # 上下文
-    interpoltion=False,  # 插值
-    plottype="3D Polar Plot"  # 图形类型
+    "Realized2D",  # 
+    expr="db(RealizedGainTotal)",  # 
+    sweep_variable="Phi",  # 
+    freq="30GHz",  # 
+    context="3D",  # 
+    interpoltion=False,  # 
+    plottype="3D Polar Plot"  # 
 )
 
 plt.savefig('far_field_plot.png')
